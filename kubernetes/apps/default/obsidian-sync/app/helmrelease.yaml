@@ -55,10 +55,10 @@ spec:
         enabled: true
         ingressClassName: nginx
         annotations:
-          external-dns.alpha.kubernetes.io/target: ipv4.devbu.io
+          external-dns.alpha.kubernetes.io/target: ipv4.flexnet.cc
           hajimari.io/icon: mdi:note-outline
         hosts:
-          - host: &host "{{ .Release.Name }}.devbu.io"
+          - host: &host "{{ .Release.Name }}.flexnet.cc"
             paths:
               - path: /
                 pathType: Prefix
