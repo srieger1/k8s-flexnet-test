@@ -17,3 +17,5 @@ xanmanning.k3s*
 terraform.tfstate*
 .config.env~
 .gitignore~
+*.yaml~
+*.yml~
